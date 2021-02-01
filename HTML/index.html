@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>
+            Calculator
+        </title>
+        <link rel="stylesheet" href="/Users/mac/Desktop/Calculator/CSS/style.css">
+        
+    </head>
+    <body>
+        <div class="main_con">
+            <h1>CALCULATOR</h1>
+            <br><br><br>
+            <table id="myTable">
+                <tr>
+                    <td colspan="4" class="display"></td>
+                </tr>
+                <tr class="operators">
+                    <td  onclick="disp('+')">+</td>
+                    <td  onclick="disp('-')">-</td>
+                    <td  onclick="disp('x')">x</td>
+                    <td  onclick="disp('/')">/</td>
+                </tr>
+                <tr>
+                    <td  onclick="disp('7')">7</td>
+                    <td onclick="disp('8')">8</td>
+                    <td  onclick="disp('9')">9</td>
+                    <td rowspan="4" class="equalTo" onclick="disp('=')">=</td>
+                </tr>
+                <tr>
+                    <td  onclick="disp('4')">4</td>
+                    <td  onclick="disp('5')">5</td>
+                    <td  onclick="disp('6')">6</td>
+                </tr>
+                <tr>
+                    <td  onclick="disp('1')">1</td>
+                    <td  onclick="disp('2')">2</td>
+                    <td  onclick="disp('3')">3</td>
+                </tr>
+                <tr>
+                    <td onclick="disp('0')">0</td>
+                    <td onclick="disp('.')">.</td>
+                    <td id="clear" class="clear">AC</td>
+                </tr>
+            </table>
+        </div>
+        <script src="/Users/mac/Desktop/Calculator/JavaScript/script2.js"></script>
+        <!-- <script src="/Users/mac/Desktop/Calculator/JavaScript/script.js"></script> -->
+        
+    </body>
+</html>
